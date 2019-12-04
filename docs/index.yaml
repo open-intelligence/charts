@@ -3,7 +3,7 @@ entries:
   testchart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-03T12:31:22.58531095+08:00"
+    created: "2019-12-04T08:41:49.04283315Z"
     description: A Helm chart for Kubernetes
     digest: 933ffefeaee612c536437ac018d7ce6fb53bfc214d825167c97a48544ae42eba
     name: testchart
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/testchart-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-03T12:31:22.584844725+08:00"
+  web-portal:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2019-12-04T08:41:49.043444579Z"
+    description: A Helm chart for Kubernetes
+    digest: f7ed5af88ad15a95940bf99a2375fe2249e99ffd5882e8887aec376c9f6390d4
+    name: web-portal
+    type: application
+    urls:
+    - https://open-intelligence.github.io/charts/web-portal-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-12-04T08:41:49.042031723Z"
