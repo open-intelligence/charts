@@ -11,17 +11,6 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/rest-server-0.1.0.tgz
     version: 0.1.0
-  testchart:
-  - apiVersion: v1
-    appVersion: 1.16.0
-    created: "2019-12-04T09:00:31.827306448Z"
-    description: A Helm chart for Kubernetes
-    digest: 933ffefeaee612c536437ac018d7ce6fb53bfc214d825167c97a48544ae42eba
-    name: testchart
-    type: application
-    urls:
-    - https://open-intelligence.github.io/charts/testchart-0.1.0.tgz
-    version: 0.1.0
   web-portal:
   - apiVersion: v1
     appVersion: 1.16.0
