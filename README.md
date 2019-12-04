@@ -5,7 +5,7 @@ This is an Open-Intelligence charts repository.
 ### Prerequisites
 
 - Connectable Kubernetes cluster
-- [Helm 2.8.0+](https://github.com/helm/helm#install)
+- [Install Helm2.8.0+](https://github.com/helm/helm#install)
 
 ### How It Works
 
