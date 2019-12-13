@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  frameworkcontroller:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2019-12-13T12:11:29.883983705Z"
+    description: General-Purpose Kubernetes Pod Controller
+    digest: c767b97c72dd76cd6fe9771633fda9e8eb254cc8376a1dd1d217dd3c5936fa45
+    name: frameworkcontroller
+    type: application
+    urls:
+    - https://open-intelligence.github.io/charts/frameworkcontroller-0.1.0.tgz
+    version: 0.1.0
   image-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-04T09:06:08.478579516Z"
+    created: "2019-12-13T12:11:29.884749655Z"
     description: A Helm chart for Kubernetes
     digest: 4f81a161b9e2eaec6c43edbda3456833c4de8ed40f89ed53ddf921a622e83b30
     name: image-factory
@@ -14,7 +25,7 @@ entries:
   rest-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-04T09:06:08.479626352Z"
+    created: "2019-12-13T12:11:29.885811282Z"
     description: A Helm chart for Kubernetes
     digest: c9d9bb9c9f90896093b8950a1b70992d46b1a12d94f03dd1aed4d1053e28add3
     name: rest-server
@@ -25,7 +36,7 @@ entries:
   web-portal:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-04T09:06:08.480272086Z"
+    created: "2019-12-13T12:11:29.886423681Z"
     description: A Helm chart for Kubernetes
     digest: f7ed5af88ad15a95940bf99a2375fe2249e99ffd5882e8887aec376c9f6390d4
     name: web-portal
@@ -33,4 +44,4 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/web-portal-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-04T09:06:08.477604312Z"
+generated: "2019-12-13T12:11:29.883274133Z"
