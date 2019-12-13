@@ -3,7 +3,7 @@ entries:
   frameworkcontroller:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.208031695Z"
+    created: "2019-12-13T12:17:24.969375542Z"
     description: General-Purpose Kubernetes Pod Controller
     digest: c767b97c72dd76cd6fe9771633fda9e8eb254cc8376a1dd1d217dd3c5936fa45
     name: frameworkcontroller
@@ -14,7 +14,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.214030606Z"
+    created: "2019-12-13T12:17:24.97465016Z"
     description: Resource Monitoring View
     digest: 9f8dd198546529b63561072db26499f1c5a689a3311d72122ead30405d07de63
     name: grafana
@@ -25,7 +25,7 @@ entries:
   image-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.215172895Z"
+    created: "2019-12-13T12:17:24.975444127Z"
     description: Factory that generate images
     digest: 677b07b2bbb0f29510bee4f5ff44c6e54cda2ec4f85b5555bfaffc96986ce7a9
     name: image-factory
@@ -36,7 +36,7 @@ entries:
   jupyterlab-proxy:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.215976959Z"
+    created: "2019-12-13T12:17:24.976052667Z"
     description: Jupyterlab Proxy
     digest: b644375217717877ab00520ead88fedcb0c3121c3ef2ea16ad51913c236ba504
     name: jupyterlab-proxy
@@ -47,7 +47,7 @@ entries:
   log-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.217163629Z"
+    created: "2019-12-13T12:17:24.976903243Z"
     description: Collect and query container logs
     digest: 688d31b2feea1b6afd2947f49991520519a24670710e47b851965f70012d5a8b
     name: log-factory
@@ -58,7 +58,7 @@ entries:
   rest-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.218626451Z"
+    created: "2019-12-13T12:17:24.977979056Z"
     description: Standard API Service For Octopus
     digest: ead64f7c92b3566c49c03674fcaa8bae38c3da431fdb276a241ecf64926799d2
     name: rest-server
@@ -69,12 +69,12 @@ entries:
   web-portal:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:15:23.219449941Z"
-    description: A Helm chart for Kubernetes
-    digest: f7ed5af88ad15a95940bf99a2375fe2249e99ffd5882e8887aec376c9f6390d4
+    created: "2019-12-13T12:17:24.978630468Z"
+    description: Standard View For Octopus
+    digest: 738d47f593912946d124ea5336377ed9a6f85393c265015fcd600e515f1405e2
     name: web-portal
     type: application
     urls:
     - https://open-intelligence.github.io/charts/web-portal-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-13T12:15:23.207248269Z"
+generated: "2019-12-13T12:17:24.968575454Z"
