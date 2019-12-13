@@ -3,7 +3,7 @@ entries:
   frameworkcontroller:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.500486483Z"
+    created: "2019-12-13T12:47:48.061505428Z"
     description: General-Purpose Kubernetes Pod Controller
     digest: c767b97c72dd76cd6fe9771633fda9e8eb254cc8376a1dd1d217dd3c5936fa45
     name: frameworkcontroller
@@ -14,7 +14,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.505543176Z"
+    created: "2019-12-13T12:47:48.06690905Z"
     description: Resource Monitoring View
     digest: 9f8dd198546529b63561072db26499f1c5a689a3311d72122ead30405d07de63
     name: grafana
@@ -25,7 +25,7 @@ entries:
   image-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.506307852Z"
+    created: "2019-12-13T12:47:48.067686394Z"
     description: Factory that generate images
     digest: 677b07b2bbb0f29510bee4f5ff44c6e54cda2ec4f85b5555bfaffc96986ce7a9
     name: image-factory
@@ -33,10 +33,21 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/image-factory-0.1.0.tgz
     version: 0.1.0
+  ingress-nginx:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2019-12-13T12:47:48.068309961Z"
+    description: Default Ingress Nginx for Octopus
+    digest: 1c41851d6f6ee81e46bf703fe59a0b2bbb42a8415f5ab666680439ec35cc35fb
+    name: ingress-nginx
+    type: application
+    urls:
+    - https://open-intelligence.github.io/charts/ingress-nginx-0.1.0.tgz
+    version: 0.1.0
   jupyterlab-proxy:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.50772732Z"
+    created: "2019-12-13T12:47:48.068886026Z"
     description: Jupyterlab Proxy
     digest: b644375217717877ab00520ead88fedcb0c3121c3ef2ea16ad51913c236ba504
     name: jupyterlab-proxy
@@ -47,7 +58,7 @@ entries:
   kubebox-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.508718346Z"
+    created: "2019-12-13T12:47:48.06953946Z"
     description: Virtual terminal based on Web
     digest: 0773226c1fa3cdbf67d00aa33a305ff5715119372a4f1fa0182b09afc9f84bcd
     name: kubebox-server
@@ -58,7 +69,7 @@ entries:
   log-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.50989Z"
+    created: "2019-12-13T12:47:48.07039137Z"
     description: Collect and query container logs
     digest: 688d31b2feea1b6afd2947f49991520519a24670710e47b851965f70012d5a8b
     name: log-factory
@@ -69,7 +80,7 @@ entries:
   octopus:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.531197326Z"
+    created: "2019-12-13T12:47:48.089208305Z"
     dependencies:
     - name: frameworkcontroller
       repository: https://open-intelligence.github.io/charts
@@ -108,7 +119,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.532202395Z"
+    created: "2019-12-13T12:47:48.09021819Z"
     description: Resource Monitoring
     digest: c43e17c69a75d4c4467637dee59460676046c043e7aa356e8df824cc5449b6c3
     name: prometheus
@@ -119,7 +130,7 @@ entries:
   rest-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.533677368Z"
+    created: "2019-12-13T12:47:48.09166663Z"
     description: Standard API Service For Octopus
     digest: ead64f7c92b3566c49c03674fcaa8bae38c3da431fdb276a241ecf64926799d2
     name: rest-server
@@ -130,7 +141,7 @@ entries:
   web-portal:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2019-12-13T12:28:58.534506176Z"
+    created: "2019-12-13T12:47:48.092554901Z"
     description: Standard View For Octopus
     digest: 738d47f593912946d124ea5336377ed9a6f85393c265015fcd600e515f1405e2
     name: web-portal
@@ -138,4 +149,4 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/web-portal-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-13T12:28:58.499642569Z"
+generated: "2019-12-13T12:47:48.060777218Z"
