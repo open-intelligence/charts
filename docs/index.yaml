@@ -86,48 +86,6 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/log-factory-0.1.0.tgz
     version: 0.1.0
-  octopus:
-  - apiVersion: v1
-    appVersion: 1.17.0
-    created: "2020-03-18T10:32:12.336709275Z"
-    dependencies:
-    - name: tasksetcontroller
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: web-portal
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: rest-server
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.1
-    - name: log-factory
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: image-factory
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: prometheus
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: grafana
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: kubebox-server
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: jupyterlab-proxy
-      repository: https://open-intelligence.github.io/charts
-      version: 0.1.0
-    - name: kube-batch
-      repository: https://open-intelligence.github.io/charts
-      version: 0.4.2
-    description: A cluster management tool and resource scheduling platform for Kubernetes
-    digest: ddf3dc1b0335d0a9fbf39f26952d6894be9ab5ce4d86c5ebbd47956a727f06a0
-    name: octopus
-    type: application
-    urls:
-    - https://open-intelligence.github.io/charts/octopus-0.1.1.tgz
-    version: 0.1.1
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2020-03-18T10:32:12.327277061Z"
@@ -197,17 +155,6 @@ entries:
     type: application
     urls:
     - https://open-intelligence.github.io/charts/rest-server-0.1.0.tgz
-    version: 0.1.0
-  tasksetcontroller:
-  - apiVersion: v1
-    appVersion: 1.16.0
-    created: "2020-03-18T10:32:12.340241841Z"
-    description: A Helm chart for Kubernetes
-    digest: 950da149690f3531ca2fe45c87ccaad296683af3cf877b639a32e6277df99a6f
-    name: tasksetcontroller
-    type: application
-    urls:
-    - https://open-intelligence.github.io/charts/tasksetcontroller-0.1.0.tgz
     version: 0.1.0
   web-portal:
   - apiVersion: v1
