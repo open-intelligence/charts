@@ -86,6 +86,7 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/log-factory-0.1.0.tgz
     version: 0.1.0
+  octopus:
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2020-03-18T10:32:12.327277061Z"
