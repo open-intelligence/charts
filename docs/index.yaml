@@ -3,7 +3,7 @@ entries:
   frameworkcontroller:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.683984885Z"
+    created: "2020-03-20T08:23:01.851124942Z"
     description: General-Purpose Kubernetes Pod Controller
     digest: cb7210a4ed2759dc5749700826fe3e68f99ab2e92241686bd9b745efc7d47216
     name: frameworkcontroller
@@ -14,7 +14,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.687729014Z"
+    created: "2020-03-20T08:23:01.854797716Z"
     description: Resource Monitoring View
     digest: d22b64fb7d62798b22c8721349b1d8db130e06851b480440643e62c56884f8dc
     name: grafana
@@ -25,7 +25,7 @@ entries:
   image-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.688534518Z"
+    created: "2020-03-20T08:23:01.855606525Z"
     description: Factory that generate images
     digest: 89a6ab108e3a42a7df8da6489ae8c220c24ee7d074388e55092f46b37ae3db30
     name: image-factory
@@ -36,7 +36,7 @@ entries:
   ingress-nginx:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.689164726Z"
+    created: "2020-03-20T08:23:01.856241741Z"
     description: Default Ingress Nginx for Octopus
     digest: 1c41851d6f6ee81e46bf703fe59a0b2bbb42a8415f5ab666680439ec35cc35fb
     name: ingress-nginx
@@ -47,7 +47,7 @@ entries:
   jupyterlab-proxy:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.689764746Z"
+    created: "2020-03-20T08:23:01.856801195Z"
     description: Jupyterlab Proxy
     digest: 78ac000f6bd0d876056a5e163080ed21057687414e2fd591456b55ee730ed799
     name: jupyterlab-proxy
@@ -57,7 +57,7 @@ entries:
     version: 0.1.0
   kube-batch:
   - apiVersion: v1alpha1
-    created: "2020-03-20T08:18:23.690326655Z"
+    created: "2020-03-20T08:23:01.857427715Z"
     description: The batch scheduler of Kubernetes
     digest: 563dee69f4cdef855d629a1367821f854c8267672b4e6cb94171892c44076f53
     name: kube-batch
@@ -67,7 +67,7 @@ entries:
   kubebox-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.691005274Z"
+    created: "2020-03-20T08:23:01.8580834Z"
     description: Virtual terminal based on Web
     digest: 4667b6e3442f6d1583707fee71b1e9e4ec3c99692b3764fce143055714ddbcff
     name: kubebox-server
@@ -78,7 +78,7 @@ entries:
   log-factory:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.691962524Z"
+    created: "2020-03-20T08:23:01.859010728Z"
     description: Collect and query container logs
     digest: ce32ef1fc4ec575e874acb7d331dcad3b9039c10f2ed7fe642999ed21c0b34f0
     name: log-factory
@@ -89,7 +89,7 @@ entries:
   octopus:
   - apiVersion: v1
     appVersion: 1.17.0
-    created: "2020-03-20T08:18:23.719347985Z"
+    created: "2020-03-20T08:23:01.886472939Z"
     dependencies:
     - name: tasksetcontroller
       repository: https://open-intelligence.github.io/charts
@@ -122,7 +122,7 @@ entries:
       repository: https://open-intelligence.github.io/charts
       version: 0.4.2
     description: A cluster management tool and resource scheduling platform for Kubernetes
-    digest: a2a85cc1bbada75022d313a7a06351143893955d5d853f33eac21f9ad2a9e41b
+    digest: 653c824b73fac02908ca23cd597454f515b97c2be492493baa15247089355253
     name: octopus
     type: application
     urls:
@@ -130,7 +130,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.706785538Z"
+    created: "2020-03-20T08:23:01.873800322Z"
     dependencies:
     - name: frameworkcontroller
       repository: https://open-intelligence.github.io/charts
@@ -169,7 +169,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.720321169Z"
+    created: "2020-03-20T08:23:01.887444112Z"
     description: Resource Monitoring
     digest: b2d4656144145abd2ccfb485dae6f37e1569628b703db421cfcf69edc0fc9c34
     name: prometheus
@@ -180,7 +180,7 @@ entries:
   rest-server:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.723582296Z"
+    created: "2020-03-20T08:23:01.891251264Z"
     description: Standard API Service For Octopus
     digest: cf2f27af1ac13a6983ef0b0925ec41a9928bec64944e940a7bfff720ed428368
     name: rest-server
@@ -190,7 +190,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.722344532Z"
+    created: "2020-03-20T08:23:01.888894963Z"
     description: Standard API Service For Octopus
     digest: f8e5c428031a286634dd92df0a7fd9ebbe25736afbc2f9e91d96ef47d1afe75f
     name: rest-server
@@ -201,7 +201,7 @@ entries:
   tasksetcontroller:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.724116759Z"
+    created: "2020-03-20T08:23:01.89197457Z"
     description: A Helm chart for Kubernetes
     digest: d5c24bd7db9c57ca20cd0dec2d65d49deb427c2a62c424ced025fece97fe6d71
     name: tasksetcontroller
@@ -212,7 +212,7 @@ entries:
   web-portal:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-03-20T08:18:23.724790019Z"
+    created: "2020-03-20T08:23:01.892779766Z"
     description: Standard View For Octopus
     digest: 463d905581458ecc233dca541cf72b60e8273914b1010bd139aff8178cc80add
     name: web-portal
@@ -220,4 +220,4 @@ entries:
     urls:
     - https://open-intelligence.github.io/charts/web-portal-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-20T08:18:23.683127077Z"
+generated: "2020-03-20T08:23:01.850337733Z"
